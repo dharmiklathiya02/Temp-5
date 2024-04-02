@@ -1,0 +1,827 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Google Sans","Roboto", "Montserrat";
+}
+
+.first {
+    background: url("abc.png");
+    height: 79vw;
+    width: 94vw;
+    margin: 0vw 0vw 0vw 3vw;
+    background-size: cover;
+
+}
+
+.first_cantainer {
+    padding: 2vw 7vw;
+}
+
+.first_navbar {
+    display: flex;
+}
+
+.first_navbar-logo {
+    padding: 1vw;
+    display: flex;
+}
+
+.first_navbar-logo-text {
+    font-size: 3vw;
+}
+
+.first_navbar-logo-bg {
+    background-color: rgb(194, 227, 66);
+    height: 0.7vw;
+    width: 0.7vw;
+    border-radius: 0vw 1vw 0vw 0vw;
+    margin-left: -0.3vw;
+}
+
+.first_navbar-element {
+    display: flex;
+    margin: 2vw 0vw 0vw 15vw;
+}
+
+.first_navbar-element-text {
+    font-size: 1vw;
+    padding: 0.5vw 2vw 0vw 2vw;
+    opacity: 0.5;
+}
+
+.first_navbar-button {
+    background-color: rgb(52, 51, 51);
+    border-radius: 0.9vw;
+    height: 2.5vw;
+    width: 9vw;
+    text-align: center;
+    margin: 2vw 0vw 0vw 12vw;
+}
+
+.first_navbar-button-text {
+    padding: 0.5vw 0vw 0vw 0vw;
+    font-size: 1.2vw;
+}
+
+.first_body {
+    display: flex;
+    margin-top: 5vw;
+}
+
+.first_body-first {
+    padding: 2vw;
+}
+
+.first_body-first-header {
+    font-size: 7vw;
+    width: 200%;
+    margin-right: 8vw;
+}
+
+.first_body-first-footer {
+    margin: 6vw 0vw 0vw 0vw;
+    display: flex;
+}
+
+.first_body-first-footer-logo {
+    background: url("first-first-logo.png");
+    height: 5vw;
+    width: 5vw;
+    background-size: contain;
+}
+
+.first_body-first-footer-text {
+    font-size: 1.3vw;
+    width: 11vw;
+    opacity: 0.5;
+    padding: 1vw 0vw 0vw 1vw;
+}
+
+.first_body-second {
+    margin: 3vw 20vw 0vw 12vw;
+
+}
+
+.first_body-second-header-text {
+    width: 25vw;
+    font-size: 1.3vw;
+    opacity: 0.5;
+    margin-top: 2vw;
+}
+
+.first_body-second-header-button {
+    display: flex;
+}
+
+.first_body-second-header-button-first {
+    margin: 2vw 0vw 0vw 0vw;
+    background-color: rgb(195, 229, 61);
+    height: 2.5vw;
+    width: 12vw;
+    border-radius: 0.9vw;
+    padding-top: 0.6vw;
+}
+
+.first_body-second-header-button-first b {
+    font-size: 1.5vw;
+    padding: 2vw 0vw 0vw 1.8vw;
+    color: black;
+}
+
+.first_body-second-header-button-second-logo {
+    background: url("first-play.png");
+    height: 5.5vw;
+    width: 5.5vw;
+    margin: 1vw 0vw 0vw 3vw;
+    background-size: cover;
+}
+
+.first_body-second-footer {
+    margin: 10vw 0vw 0vw 10vw;
+}
+
+.first_body-second-footer-first {
+    display: flex;
+}
+
+.first_body-second-footer-first-logo {
+    background: url("first_starters.png") no-repeat;
+    height: 6vw;
+    width: 10vw;
+    background-size: cover;
+}
+
+.first_body-second-footer-first-text {
+    font-size: 2.5vw;
+    margin: 1.5vw -4vw 0vw 1vw;
+    font-weight: 900;
+}
+
+.first_body-second-footer-second {
+    width: 20vw;
+    margin: -0.5vw 0vw 0vw 4vw;
+    display: flex;
+}
+
+.first_body-second-footer-second-logo-first {
+    background-color: rgb(195, 229, 61);
+    height: 1vw;
+    width: 1vw;
+    border-radius: 5vw;
+    margin-top: 0.4vw;
+}
+
+.first_body-second-footer-second-logo-text {
+    font-size: 1.2vw;
+    opacity: 0.5;
+    margin: 0.3vw 0vw 0vw 1vw;
+}
+
+.second {
+    margin: 1vw 0vw 0vw 5vw;
+    color: black;
+    display: flex;
+}
+
+.page-number {
+    position: absolute;
+    font-size: 15vw;
+    color: rgba(128, 128, 128, 0.112);
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Montserrat";
+}
+
+.second-first-all {
+    margin: 8vw 0vw 0vw 5vw;
+    width: 50%;
+}
+.second-li{
+    position: absolute;
+    display: flex;
+    opacity: 0.2;
+    margin:0.8vw 0vw 0vw 20vw;
+}
+.second-line-first-dot{
+    background-color: grey;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 2vw;
+    border-radius: 1vw;
+
+}
+.second-line-line{
+    background-color: gray;
+    height: 0.1vw;
+    width: 10vw;
+    margin-top: 0.145vw;
+}
+.second-line-two-dot{
+    background-color: gray;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 0vw;
+    border-radius: 2vw;
+}
+
+.second-first-head {
+    font-size: 1.3vw;
+    opacity: 0.7;
+}
+
+.second-first-body {
+    font-size: 3.5vw;
+    width: 30vw;
+    font-weight: 900;
+    word-spacing: 0.2vw;
+    letter-spacing: 0.1vw;
+    margin-top: 1vw;
+}
+
+.second-first-body-text {
+    margin: 3vw 5vw 0vw 0vw;
+    width: 40vw;
+    font-size: 1.6vw;
+    text-align: justify;
+    opacity: 0.5;
+}
+
+.second-first-footer {
+    display: flex;
+    margin: 5vw 0vw 0vw 0vw;
+}
+
+.second-first-logo {
+    background-color: black;
+    height: 3vw;
+    width: 10vw;
+    border-radius: 3vw;
+    padding: 1.5vw 0vw 0vw 0vw;
+}
+
+.second-first-logo b {
+    color: white;
+    padding: 0vw 0vw 0vw 1.3vw;
+    letter-spacing: 0.1vw;
+    font-size: 1.2vw;
+}
+
+.second-first-text {
+    margin: 1.4vw 0vw 0vw 2vw;
+    font-weight: 900;
+    font-size: 1.2vw;
+}
+
+.second-two {
+    margin: 2vw 0vw 0vw 2vw;
+    display: flex;
+}
+
+.second-two-elements {
+    margin: 7vw 0vw 0vw 0vw;
+}
+
+.second-two-elements-first {
+    background-color: rgb(246, 244, 243);
+    height: 13vw;
+    width: 15vw;
+    border-radius: 2vw;
+    margin-bottom: 3vw;
+}
+
+.second-two-first-head {
+    padding: 1vw 0vw 0vw 5vw;
+    font-size: 0.9vw;
+    letter-spacing: 0.1vw;
+}
+
+.second-two-first-text {
+    padding: 1vw 0vw 0vw 0vw;
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+.second-two-first-img {
+    background: url("shield.png");
+    height: 5vw;
+    width: 5vw;
+    margin: 1.5vw 0vw 0vw 5vw;
+    background-size: contain;
+}
+
+.second-two-element-two {
+    margin: 5vw 0vw 0vw 3vw;
+}
+
+.second-two-elment-two {
+    background-color: black;
+    height: 15vw;
+    width: 17vw;
+    border-radius: 3vw;
+    margin: 0vw 0vw 3vw 0vw;
+    color: white;
+}
+
+.second-two-second-img {
+    background: url("star.png") no-repeat;
+    height: 7vw;
+    width: 7vw;
+    margin: 1vw 0vw -2vw 3.5vw;
+    background-size: contain;
+}
+
+.second-two-second-head {
+    padding: 1vw 0vw 0vw 6vw;
+    font-size: 1.2vw;
+}
+
+.second-two-third-img {
+    background: url("graph-image-.png") no-repeat;
+    height: 8vw;
+    margin-left: 4vw;
+    width: 12vw;
+    background-size: contain;
+}
+
+.second-two-second-text {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 1.2vw;
+}
+
+.second-two-fourt-img {
+    background: url("like.png") no-repeat;
+    height: 5vw;
+    width: 5vw;
+    background-size: contain;
+    margin: 1vw 0vw 0vw 5vw;
+}
+
+.third {
+    margin: 4vw 0vw 0vw 5vw;
+    color: black;
+}
+
+.third-cantiner {
+    padding: 8vw 0vw 0vw 5vw;
+}
+.third-li{
+    position: absolute;
+    display: flex;
+    opacity: 0.2;
+    margin:0.8vw 0vw 0vw 22vw;
+}
+.third-line-first-dot{
+    background-color: grey;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 2vw;
+    border-radius: 1vw;
+
+}
+.third-line-line{
+    background-color: gray;
+    height: 0.1vw;
+    width: 57vw;
+    margin-top: 0.145vw;
+}
+.third-line-two-dot{
+    background-color: gray;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 0vw;
+    border-radius: 2vw;
+}
+
+.third-header {
+    color: gray;
+    font-size:1.3vw ;
+}
+
+.third-body {
+    display: flex;
+    margin-top: 1.5vw;
+}
+
+.third-body-first {
+    font-size: 4vw;
+    margin-right: 18vw;
+    font-weight: 900;
+}
+
+.third-body-second {
+    font-size: 1.5vw;
+    color: grey;
+    margin-top: 1vw;
+}
+
+.third-footer {
+    margin: 3vw 0vw 0vw 0vw;
+    display: flex;
+}
+
+.third-footer-back {
+    background-color: rgb(246, 244, 243);
+    height: 15vw;
+    width: 25vw;
+    margin-right: 2.8vw;
+    border-radius: 2vw;
+}
+
+.third-footer-head {
+    font-size: 4vw;
+    color: rgba(128, 128, 128, 0.436);
+    padding-top: 3vw;
+}
+
+.third-footer-body {
+    font-size: 1.2vw;
+    color: gray;
+    padding-top: 1vw;
+}
+
+.third-footer-head-first {
+    font-size: 4vw;
+    color: rgb(0, 0, 0);
+    padding-top: 3vw;
+    font-weight: 700;
+}
+
+.third-footer-body-second {
+    font-size: 1.2vw;
+    color: gray;
+    padding-top: 1vw;
+}
+
+.fourth {
+    background-color: black;
+    margin: 5vw 0vw 0vw 3vw;
+    height: 40vw;
+    width: 92vw;
+    border-radius: 3vw;
+    color: white;
+}
+
+.fourth-all {
+    padding: 8vw 0vw 0vw 8vw;
+    display: flex;
+}
+
+.fourth-first-text {
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.fourth-first-logo {
+    background-color: rgb(195, 229, 61);
+    height: 2.8vw;
+    width: 13vw;
+    margin: 3vw 0vw 0vw 0vw;
+    padding-top: 0.8vw;
+    border-radius: 2vw;
+    color: black;
+}
+
+.fourth-first-logo b {
+    font-size: 1.5vw;
+    margin: 1.3vw 0vw 0vw 1.7vw;
+}
+
+.fourth-second {
+    background-image: url("hand.png");
+    height: 38vw;
+    width: 40vw;
+    background-size: cover;
+    margin: -6vw 0vw 0vw 4vw;
+}
+
+.fifth {
+    margin: 2vw 0vw 0vw 5vw;
+    color: black;
+}
+
+.fifth_all {
+    padding: 8vw 0vw 0vw 5vw;
+}
+
+.fifth-li{
+    position: absolute;
+    display: flex;
+    opacity: 0.2;
+    margin:0.8vw 0vw 0vw 22vw;
+}
+.fifth-line-first-dot{
+    background-color: grey;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 2vw;
+    border-radius: 1vw;
+
+}
+.fifth-line-line{
+    background-color: gray;
+    height: 0.1vw;
+    width: 57vw;
+    margin-top: 0.145vw;
+}
+.fifth-line-two-dot{
+    background-color: gray;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 0vw;
+    border-radius: 2vw;
+}
+
+.fifth-header {
+    color: grey;
+    font-size: 1.3vw;
+}
+
+.fifth-body {
+    display: flex;
+    margin: 1vw 0vw 0vw 0vw;
+}
+
+.fifth-body-first {
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.fifth-body-second {
+    font-size: 1.6vw;
+    margin: 2vw 0vw 0vw 20vw;
+    color: gray;
+}
+
+.fifth-footer {
+    margin: 1vw 0vw 0vw 0vw;
+}
+
+.fifth-footer-ele {
+    margin-top: 2vw;
+    display: flex;
+}
+
+.fifth-footer-first {
+    background: url("ovo.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size:contain;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+}
+
+.fifth-footer-two {
+    background: url("apple.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+    margin-left: 7vw;
+}
+
+.fifth-footer-three {
+    background: url("visa.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+    margin-left: 7vw;
+}
+
+.fifth-footer-second {
+    margin-top: 2vw;
+    display: flex;
+}
+
+.fifth-footer-four {
+    background: url("wise.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+}
+
+.fifth-footer-five {
+    background: url("payoneer.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+    margin-left: 7vw;
+}
+
+.fifth-footer-six {
+    background: url("Gpay01.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+    margin-left: 7vw;
+}
+
+.fifth-footer-five {
+    background: url("payoneer.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+    margin-left: 7vw;
+}
+
+.fifth-footer-thrid {
+    margin-top: 2vw;
+    display: flex;
+}
+
+.fifth-footer-seven {
+    background: url("stripe.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+}
+
+.fifth-footer-eight {
+    background: url("Neteller.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+    margin-left: 7vw;
+}
+
+.fifth-footer-nine {
+    background: url("alipay.jpg");
+    height: 2vw;
+    width: 10vw;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 2vw;
+    padding: 0vw 7vw 20vw 5vw;
+    margin-left: 7vw;
+}
+
+.six {
+    margin: 2vw 0vw 0vw 5vw;
+    color: black;
+}
+
+.six-all {
+    padding: 8vw 0vw 0vw 5vw;
+}
+
+.six-li{
+    position: absolute;
+    display: flex;
+    opacity: 0.2;
+    margin:0.8vw 0vw 0vw 22vw;
+}
+.six-line-first-dot{
+    background-color: grey;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 2vw;
+    border-radius: 1vw;
+
+}
+.six-line-line{
+    background-color: gray;
+    height: 0.1vw;
+    width: 57vw;
+    margin-top: 0.145vw;
+}
+.six-line-two-dot{
+    background-color: gray;
+    height: 0.4vw;
+    width: 0.4vw;
+    margin: 0vw 0vw 0vw 0vw;
+    border-radius: 2vw;
+}
+
+
+.six-header {
+    color: grey;
+    font-size: 1.3vw;
+}
+
+.six-body {
+    margin-top: 1vw;
+    display: flex;
+}
+
+.six-body-first {
+    font-size: 4.5vw;
+    font-weight: 600;
+}
+
+.six-body-two {
+    margin: 2vw 0vw 0vw 21vw;
+    color: grey;
+    font-size: 1.5vw;
+}
+
+.six-footer {
+    background-color: rgb(246, 244, 243);
+    height: 47vw;
+    width: 89vw;
+    border-radius: 2vw;
+}
+
+.six-footer-img {
+    background: url("carty.png");
+    height: 39vw;
+    width: 89vw;
+    background-size: cover;
+    border-radius: 2vw;
+    margin-top: 2vw;
+}
+
+.six-footer-img-logo {
+    background-color: rgb(229, 227, 226);
+    height: 2.3vw;
+    width: 30vw;
+    margin: 3vw 0vw 0vw 30vw;
+    border-radius: 1vw;
+}
+
+.six-footer-img-logo h2 {
+    padding: 0.5vw 0vw 0vw 2.8vw;
+    font-size: 1.2vw;
+    color: grey;
+    font-weight: 100;
+}
+
+.seven {
+    background: url("footerback.jpg");
+    height: 45vw;
+    width: 94vw;
+    background-size: 100% 100%;
+    margin: 8vw 0vw 3vw 3vw;
+    border-radius: 3vw 3vw 0vw 0vw;
+}
+
+.seven-header {
+    font-size: 4vw;
+    padding: 7vw 0vw 2vw 0vw;
+    font-weight: 900;
+}
+
+.seven-body {
+    background-color: rgb(195, 229, 61);
+    height: 3vw;
+    width: 10vw;
+    border-radius: 2vw;
+}
+
+.seven-body h5 {
+    color: black;
+    font-size: 1vw;
+    padding: 0.8vw;
+}
+
+.seven_navbar-logo {
+    margin: 11vw 0vw 0vw 43.7vw;
+    display: flex;
+}
+
+.seven_navbar-logo-text {
+    font-size: 4vw;
+    margin:-2vw 0vw 0vw -1.4vw;
+}
+
+.seven_navbar-logo-bg {
+    background-color: rgb(195, 229, 61);
+    height: 1vw;
+    width: 1vw;
+    border-radius: 0vw 1vw 0vw 0vw;
+    margin:-1.9vw 0vw 0vw -0.7vw;
+}
+
+.seven-footer {
+    display: flex;
+}
+
+.seven-footer-ele {
+    color: gray;
+    margin: 2vw 10vw 0vw 9vw;
+    font-size: 1.2vw;
+}
